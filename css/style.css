@@ -1,0 +1,120 @@
+/* css rule */
+/* selectors */
+/* declaration block */
+/* declaration */
+/* property */
+/* value */
+
+/* type selector */
+h1{
+    color: chocolate;
+    font-style: italic;
+
+}
+h2{
+    color: tomato;
+    font-size: 2rem;
+}
+p{
+    color:crimson;
+}
+/* id selector */
+#title{
+
+    color: chartreuse;
+    background-color: crimson;
+}
+#footer{
+    color: brown;
+    background-color: black;
+}
+/* class selector */
+.name{
+    color: blue;
+    font-style: inherit;
+}
+.place{
+    color: violet;
+
+}
+.nation{
+    color: blueviolet;
+}
+/* div tag span tag */
+div{
+    color: blue;
+    background-color: burlywood;
+    border: 3px solid black;
+}
+span{
+    text-transform: uppercase;
+}
+.theory{
+    color: cyan;
+    font-size: medium;
+    background-color: azure;
+}
+/* universal selector
+*{
+    color:black;
+}
+*/
+/* color properties */
+#first{
+    color: rgb(0,0,255);
+}
+#second{
+    background-color: rgba(0, 0, 1, 0.5);
+}
+/* unit properties */
+#unit1{
+    font-size: 60px;
+    font-style: initial;
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+}
+#unit2{
+    font-size: 60px;
+    font-style: initial;
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+}
+/* min and max values */
+*
+{
+     margin: 0;
+
+}
+.navbar{
+    background-color: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+.nav1{
+    background-color: red;
+    min-height: calc(100vh - 100px) ;
+}
+/* google font */
+.text{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Island Moments', cursive;
+    text-indent: 50px;
+}
+/* text property */
+.word{
+line-height: 2em;
+word-spacing: 0.5em;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+text-decoration:dashed;
+}
+#link{
+    font-size: 40px;
+    text-decoration: none;
+    text-decoration: line-through;
+}
